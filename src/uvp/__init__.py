@@ -1,12 +1,5 @@
 """UVP - All-in-one tool for managing and deploying Python projects."""
 
-__version__ = "0.0.1"
+from uvp.core import __version__, app
 
-# Import core module and create app instance
-from uvp.core import app as app
-
-# Import commands to ensure they're registered early
-
-
-def hello() -> str:
-    return "Hello from uvp!"
+__all__ = ["app", "__version__"]

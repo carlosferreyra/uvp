@@ -5,7 +5,7 @@ from uvp.core import app
 
 def main() -> None:
     """Entry point for the application."""
-    app.run()
+    app()
 
 
 if __name__ == "__main__":
