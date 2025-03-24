@@ -1,5 +1,12 @@
-from typing import Literal
+"""Main entry point for the uvp CLI application."""
+
+from uvp.core import app
 
 
-def main() -> Literal["hello from uvp!"]:
-    return "hello from uvp!"
+def main() -> None:
+    """Entry point for the application."""
+    app.run()
+
+
+if __name__ == "__main__":
+    main()

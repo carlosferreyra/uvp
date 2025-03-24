@@ -1,0 +1,4 @@
+- do not use pip/poetry to install dependencies
+- uv is the main package manager
+- it should follow PEP standards
+- use the latest version of uv
