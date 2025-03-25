@@ -33,15 +33,15 @@ See the command reference below for available commands and options.
 To set up the development environment:
 
 ```bash
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv sync
 uv pip install -e ".[dev]"
+uv run uvp --help
 ```
 
 ### Running Tests
 
 ```bash
-pytest
+uv run pytest
 ```
 
 ## License
