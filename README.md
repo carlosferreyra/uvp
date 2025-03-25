@@ -12,7 +12,11 @@ All-in-one tool for managing and deploying Python projects using the modern `uv`
 ## Installation
 
 ```bash
-uv pip install uvp
+uv tool install uvp # Install the latest version
+```
+
+```bash
+uvx uvp # run the tool in an isolated environment
 ```
 
 ## Requirements
